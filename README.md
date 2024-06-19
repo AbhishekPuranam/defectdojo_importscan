@@ -1,10 +1,10 @@
 # DefectDojo Scan results importer
 Upload scan results from the Security tools into Self hosted Defect Dojo with this simple python script
 ## requirement
-Python3 
-pip install argparse
-pip install requests
-pip install os
+- Python3 
+- pip install argparse
+- pip install requests
+- pip install os
 
 ## Setup Defect Dojo with Docker compose
 https://github.com/DefectDojo/django-DefectDojo/blob/master/readme-docs/DOCKER.md
