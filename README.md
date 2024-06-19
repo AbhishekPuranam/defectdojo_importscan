@@ -12,9 +12,9 @@ https://github.com/DefectDojo/django-DefectDojo/blob/master/readme-docs/DOCKER.m
 
 ## script usage
 python3 dojo-upload.py 
--host HOST ( Hostname/hostip:port, currently supports HTTP only)  
---api_key API_KEY ( Currently support API V2 keys only)
---engagement_name ENGAGEMENT_NAME ( Engagement name)
---result_file RESULT_FILE  (Scanner Output file name: Refer to link for format: https://defectdojo.com/integrations)
---scanner SCANNER (Scanner Name: Refer to link for naming convention: https://defectdojo.com/integrations)
---product_name PRODUCT_NAME (
+- --host HOST ( Hostname/hostip:port, currently supports HTTP only)  
+- --api_key API_KEY ( Currently support API V2 keys only)
+- --engagement_name ENGAGEMENT_NAME ( Engagement name)
+- --result_file RESULT_FILE  (Scanner Output file name: Refer to link for format: https://defectdojo.com/integrations)
+- --scanner SCANNER (Scanner Name: Refer to link for naming convention: https://defectdojo.com/integrations)
+- --product_name PRODUCT_NAME (
